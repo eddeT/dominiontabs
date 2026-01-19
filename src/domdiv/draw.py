@@ -2261,7 +2261,7 @@ class DividerDrawer(object):
         else:
             # Margins already set
             # Set Label size
-            options.labelHeight = self.LABEL_HEIGHT
+            options.labelHeight = options.tabheight * cm
             options.labelWidth = options.tabwidth * cm
             if options.tab_side == "full" or options.labelWidth > options.dividerWidth:
                 options.labelWidth = options.dividerWidth

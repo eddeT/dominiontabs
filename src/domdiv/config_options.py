@@ -206,6 +206,12 @@ def parse_opts(cmdline_args=None):
         help="Width in cm of stick-up tab (ignored if --tab_side is 'full' or --tabs_only is used).",
     )
     group_tab.add_argument(
+        "--tabheight",
+        type=float,
+        default=0.9,
+        help="Height in cm of stick-up tab, art does not scale up much further, but can be used to make stick up less.",
+    )
+    group_tab.add_argument(
         "--cost",
         action="append",
         choices=LOCATION_CHOICES,
