@@ -26,8 +26,3 @@ dist
 venv
 
 /local_fonts/
-
-# tests
-dom.conf
-uv.lock
-output/
